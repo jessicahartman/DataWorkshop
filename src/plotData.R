@@ -8,4 +8,4 @@ ggplot(gmpts, aes(longitude, latitude, group = status))+
   stat_density_2d(aes(fill = ..level..), geom = "polygon", color = "black", size = 0.2, alpha = 0.5) +
   geom_point(color = "navy", size = .5, alpha = .4)
 #making a change
-#making a different change
+
