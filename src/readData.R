@@ -1,5 +1,5 @@
 # This script will read data from the Cape Hatteras BRS
 # into a data frame called gm182, which will serve as intermediate
-# data for subsequent analysis
+# data for subsequent analysis - edits
 gm182 <- read.csv(file='../data/2018-11-27_Gm182-Start-CEE-Locations-Kahuna.csv)
 head(gm182)
